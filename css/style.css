@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+/* CSS Document */
+/* Navigation */
+#more {
+  display: none;
+}
+
+/*Text*/
+h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 66px !important;
+  font-weight: 400;
+  line-height: 76px;
+  color: #505D68;
+}
+
+h2 {
+  color: #505D68;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 50px !important;
+  font-weight: 700 !important;
+  line-height: 64px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h3 {
+  color: #505D68;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 38px !important;
+  font-weight: 700 !important;
+  line-height: 48px;
+}
+
+h5 {
+  color: #A1AEB7;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 21px !important;
+  font-weight: 700;
+  line-height: 31px;
+}
+
+p {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #A1AEB7;
+}
+
+.halo-logo {
+  color: #505D68;
+  text-align: center !important;
+  font-size: 28px !important;
+  font-weight: 700 !important;
+  padding-bottom: 20px;
+}
+
+
+/*Banners*/
+.mainbanner {
+  background-color: #f2f5f7;
+  padding: 15% 0% 8% 0%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-image: url("/Users/David/Google Drive/Development/halo-test/images/banner-bg.png");
+}
+
+#carouselcontrols {
+  padding-bottom: 40px;
+}
+
+
+/* Containers */
+
+.banner-right {
+  position: relative;
+  min-height: 80px;
+}
+
+.banner-buttons {
+  position: absolute;
+  bottom: 0;
+}
+
+#aboutcontainer {
+  padding: 14% 18% 10% 18%;
+}
+
+
+.whofor {
+  padding: 50px 0px;
+}
+
+.whoforbox {
+  padding: 154px 20px 44px 30px;
+}
+
+.range-main{
+  background-color: #FAFCFD;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.range-1{
+  background-color: #FFFFFF;
+}
+
+.range-2{
+  background-color: #FAFCFD;
+}
+
+#box1 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/Users/David/Google Drive/Development/halo-test/images/1-bg.svg");
+}
+
+#box2 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/Users/David/Google Drive/Development/halo-test/images/2-bg.svg");
+}
+
+#box3 {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/Users/David/Google Drive/Development/halo-test/images/3-bg.svg");
+}
+
+
+/* Icons */
+.fas {
+  font-size: 30px;
+  color: #C2D1D9;
+  padding-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:before {
+  content: “\f058”;
+  font-family: fontawesome;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
